@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <description>cms ul tag library</description>
+    <display-name>cms ul tag</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>cms-ul</short-name>
+    <uri>http://www.xqlc-cms.com/cms_ul</uri>
+
+    <!--栏目相关-->
+    <tag>
+        <description>首页栏目下子栏目标签,分列展示</description>
+        <name>categoryList</name>
+        <tag-class>com.xqlc.cms.publish.dynamicTag.ulTag.CategoryList</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>标签ID</description>
+            <name>tagId</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>栏目ID</description>
+            <name>channelId</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>展现级别</description>
+            <name>self</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <description>递归TreeTable</description>
+        <name>treeTable</name>
+        <tag-class>com.xqlc.cms.publish.dynamicTag.utilTag.TreeTable</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>递归DTO</description>
+            <name>element</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+</taglib>

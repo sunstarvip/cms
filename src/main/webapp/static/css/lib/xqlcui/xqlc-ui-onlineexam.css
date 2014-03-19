@@ -1,0 +1,106 @@
+/****************************在线考试试卷样式*****************************************/
+body{
+    font-size: 14px;
+    background-color: #F7F7F7;
+    background-position: top left;
+    background-repeat: repeat-x;
+    position: relative;
+}
+.widget-content{
+    background-color: #ffffff;
+    border:1px solid #D3D3D3;
+    padding: 20px 35px;
+}
+.widget-content form table{
+    width: 100%;
+}
+
+.widget-content form .examtool {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    _position: absolute;
+    z-index: 20000;
+}
+
+.widget-content form .examtool .examtool-select-tab {
+    float: left;
+    margin-top: 50px;
+}
+.widget-content form .examtool .examtool-select-tab .control-icon {
+    width: 16px;
+    height: 24px;
+    overflow: hidden;
+    font-family: '宋体';
+    background-color: #cccccc;
+    float:left;
+}
+
+.widget-content form .examtool .examtool-select-tab .control-icon a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    /*background: url(../../../../static/images/lib/xqlcui/webIM/online_bg.png) no-repeat;*/
+    /*_background: url(../../../../static/images/lib/xqlcui/webIM/online_bg_ie6.png) no-repeat;*/
+}
+
+.widget-content form .examtool .examtool-select-tab .save-button{
+    width: 114px;
+    height: 24px;
+    overflow: hidden;
+    font-family: '宋体';
+    background-color: #cccccc;
+    float:left;
+    text-align: center;
+}
+.widget-content form .examtool .examtool-list {
+    float: left;
+    margin-left: -3px;
+    display: none;
+    width: 260px;
+    border: 1px solid #A9C9E2;
+    background-color: #EFF7FF;
+}
+
+.widget-content form .examtool .examtool-countdown{
+    display: block;
+    text-align: center;
+    background-color: #B2D3F5;
+    width: 120px;
+    padding: 5px;
+}
+.widget-content form .examtool .examtool-countdown H5{
+
+    margin: 0px;
+}
+.widget-content form .examtool .examtool-countdown span{
+    font-size: 25px;
+}
+.widget-content form .examtool .nav-list{
+    width: 260px;
+    background: none;
+}
+.widget-content form .examtool .nav-list > li {
+    float: left;
+    width: 22px;
+    height: 16px;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    background-color: #FFFFFF;
+    margin: 1px;
+
+}
+.widget-content form .examtool .nav-list > li > a{
+    margin: 0px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    /*font-weight: 800;*/
+    font-size: 10px;
+
+}
+
+
+
+
+

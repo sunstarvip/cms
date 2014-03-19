@@ -1,0 +1,23 @@
+
+.ui-layout-west{
+    background: #F7F7F7;
+}
+.ui-layout-west h3{
+    background: url("../../../images/lib/xqlcui/admin/styles/default/backgrounds/menu-item.jpg") repeat-x scroll left top rgba(0, 0, 0, 0);
+    margin: 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ADADAD;
+    line-height: 18px;
+    padding: 5px;
+    width: auto;
+    display: block;
+}
+ul.ztree {
+    margin-top: 0px;
+    border:none;
+    overflow:auto;
+}
+#treeDemo {
+    background: none;
+    border: 0px solid #CCCCCC;
+}

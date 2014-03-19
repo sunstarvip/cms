@@ -1,0 +1,27 @@
+.ztree li span.button.user_ico_docu {
+    margin-right: 2px;
+    background: url(img/diy/man.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle
+}
+
+.ztree li span.button.dept_ico_open {
+    margin-right: 2px;
+    background: url(img/diy/dept.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle
+}
+
+.ztree li span.button.dept_ico_close {
+    margin-right: 2px;
+    background: url(img/diy/dept.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle
+}
+
+.ztree li span.button.dept_ico_docu {
+    margin-right: 2px;
+    background: url(img/diy/dept.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle
+}

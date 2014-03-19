@@ -1,0 +1,120 @@
+[class*="block"] table{
+  width: 100%;
+}
+[class*="block"] table tr td {
+    background: none!important;
+    padding: 2px;
+    border: none!important;
+}
+[class*="block"] table tr td p{
+    display: block;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    margin: 0 5px;
+    padding: 0 5px;
+    min-height: 20px;
+
+}
+[class*="block"] table tr:nth-child(2n+1) td {
+    background: none!important;
+}
+[class*="block"] table tbody tr th {
+    border: none!important;
+    padding: 2px;
+    text-align: right;
+    background: none!important;
+    width: 120px;
+}
+[class*="block"] .table thead tr th {
+    border-right: 1px solid #D3D3D3!important;
+    border-left: 0px solid #DDDDDD!important;
+    border-bottom: 1px solid #D3D3D3!important;
+    padding: 2px;
+    text-align: center;
+    background: #F7F7F7!important;
+}
+[class*="block"] .table thead tr th:last-child {
+    border-right: 0px solid #DDDDDD!important;
+}
+[class*="block"] .table thead tr th:first-child,
+[class*="block"] .table thead tr th:last-child {
+    border-top-right-radius: 0px;
+}
+[class*="block"] .table thead tr th {
+    border-bottom: 1px solid #D3D3D3;
+}
+[class*="block"] .table tbody tr,
+[class*="block"] .table tbody tr {
+    border-bottom: 1px solid #D3D3D3;
+    background: #ffffff;
+}
+
+.headInfo {
+    background-color: #ffffff;
+    border: 1px solid #96C2F1;
+    padding: 0px;
+}
+.headInfo h4,
+.headInfo .actions,
+.workplace .headInfo .actions,
+.content .workplace .headInfo .actions {
+    text-align: left;
+    background: #B2D3F5;
+    margin: 1px 1px 0px 1px;
+    padding: 4px;
+    line-height: 26px;
+
+}
+
+.headInfo h4{
+    display: block;
+    float: none;
+    line-height: 26px;
+}
+.block,
+.block-fluid {
+    border: 1px solid #96C2F1;
+    border-top: 0px;
+    background-color: #EFF7FF;
+    margin-bottom: 20px;
+    -moz-border-bottom-left-radius: 3px;
+    -moz-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -o-border-bottom-left-radius: 3px;
+    -o-border-bottom-right-radius: 3px;
+    -ms-border-bottom-left-radius: 3px;
+    -ms-border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.formlayout > ul > li,
+.formlayout > ol > li,
+form .formlayout > ul > li,
+form .formlayout > ol > li {
+    border-bottom: 1px solid #96C2F1;
+    background-color: #EFF7FF;
+}
+.block .footer,
+.block-fluid .footer {
+    background-color: #EFF7FF;
+}
+.formlayout > ul > li > span, .formlayout > ol > li > span, form .formlayout > ul > li > span, form .formlayout > ol > li > span {
+    text-align: right;
+}
+
+.formlayout > ul > li > .formright, .formlayout > ol > li > .formright, form .formlayout > ul > li > .formright, form .formlayout > ol > li > .formright {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.messagelist{
+    height: 270px;
+}
+.messagelist .item .info{
+    padding: 5px 5px 5px 5px!important;
+}
+.messagelist .mCSB_container {
+    margin-right: 0px;
+}
