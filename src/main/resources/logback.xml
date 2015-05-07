@@ -6,11 +6,10 @@
 		</encoder>
 	</appender>
 
-	<appender name="rollingFile"
-		class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>logs/xqlc-webapp.log</file>
+	<appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>logs/cms.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>logs/webapp.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<fileNamePattern>logs/platform.%d{yyyy-MM-dd}.log</fileNamePattern>
 		</rollingPolicy>
 		<encoder>
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
@@ -18,13 +17,14 @@
 	</appender>
 
 	<!-- project default level -->
-	<logger name="com.xqlc.webapp" level="INFO" />
+	<logger name="com.darknight.cms" level="INFO" />
+	<!--<logger name="com.xqlc.safety" level="DEBUG" />-->
 
 	<!--log4jdbc -->
-	<logger name="jdbc.sqltiming" level="INFO" />
+	<logger name="jdbc.sqltiming" level="INFO"/>
 
 	<root level="WARN">
 		<appender-ref ref="console" />
-		<!--<appender-ref ref="rollingFile" /> -->
+		<!--<appender-ref ref="rollingFile" />-->
 	</root>
 </configuration>
